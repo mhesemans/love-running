@@ -78,11 +78,11 @@ nav {
     display: block;
 }
 
-#nav-toggle{
+#nav-toggle {
     display: none;
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 }
 
@@ -101,30 +101,30 @@ footer {
 }
 
 /* Media Query: tablets and larger (768px and up) */
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
-    
+
     /* Header */
     nav {
-        display:block;
+        display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right:1rem;
+        padding-right: 1rem;
 
     }
 
-    #menu{
+    #menu {
         display: flex;
     }
-    
-    #menu >li{
+
+    #menu>li {
         padding-left: 1rem;
 
     }
 
-    .nav-toggle-label{
-        display:none;
+    .nav-toggle-label {
+        display: none;
     }
 
     #logo {
@@ -134,13 +134,13 @@ footer {
     }
 
     /* Main Content */
-    main{
+    main {
         margin-top: 79px;
     }
 }
 
 /* Media Query: laptops and larger (992px and up) */
-@media screen and (min-width:992px){
+@media screen and (min-width:992px) {
 
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
